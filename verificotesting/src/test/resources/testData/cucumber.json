@@ -3,972 +3,591 @@
     "line": 1,
     "elements": [
       {
+        "line": 4,
+        "name": "customers product purchase",
+        "description": "GIVEN customer is on the ecpommerce webpage\nWHEN they add product to the basket\nTHEN the customer should see the ammount to pay.",
+        "id": "customer-want-to-purchase-products-on;customers-product-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      }
+    ],
+    "name": "customer want to purchase products on",
+    "description": " the ecommerce webpage",
+    "id": "customer-want-to-purchase-products-on",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Ecommerce_Search/BuyProductFeature.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 3,
-        "name": "",
+        "name": "Should list items related to a specified keyword",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 33273261755,
+              "duration": 8373638950,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I Login to Admin",
+            "line": 4,
+            "name": "I want to buy a wool scarf",
             "match": {
-              "location": "LoginStep.java:43"
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8523693095,
+              "duration": 4489087560,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search for items containing \u0027wool\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wool",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3257168358,
               "status": "passed"
             },
             "line": 6,
-            "name": "Close Modal Dialog If Open",
+            "name": "I should only see items related to \u0027wool\u0027",
             "match": {
-              "location": "LoginStep.java:71"
+              "arguments": [
+                {
+                  "val": "wool",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "before": [
-          {
-            "result": {
-              "duration": 8307170464,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PlaceStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 536235960,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PermissionsStep.initPermissions()"
-            }
-          },
-          {
-            "result": {
-              "duration": 223911,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AttributeStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 250730,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VehicleStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 187384,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PersonStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 29452486,
-              "status": "passed"
-            },
-            "match": {
-              "location": "RolesStep.initroles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 293194,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GroupStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 223003,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 252127,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CompaniesStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 119499,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 104622,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SensorStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 144641,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ProfileStep.initVehicles()"
-            }
-          }
-        ],
-        "line": 9,
-        "name": "Navigate to Sensors Page , Create Sensor , Update Sensor, Search Sensor , Delete Sensor",
+        "line": 8,
+        "name": "Should list items related to a specified keyword",
         "description": "",
-        "id": "sensor-bat-feature;navigate-to-sensors-page-,-create-sensor-,-update-sensor,-search-sensor-,-delete-sensor",
-        "after": [
-          {
-            "result": {
-              "duration": 417649100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VehicleStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 167663977,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 39669,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.afterAll()"
-            }
-          },
-          {
-            "result": {
-              "duration": 168214186,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SensorStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 156617740,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ProfileStep.tearDown()"
-            }
-          }
-        ],
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10089150297,
+              "duration": 6233121581,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to buy a wool scarf",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4135197474,
               "status": "passed"
             },
             "line": 10,
-            "name": "goto Sensors Page",
+            "name": "I search for items containing \u0027shoes\u0027",
             "match": {
-              "location": "SensorStep.goto_Sensors_Page()"
+              "arguments": [
+                {
+                  "val": "shoes",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 24458088039,
+              "duration": 3369163516,
               "status": "passed"
             },
             "line": 11,
-            "name": "Create a Sensor",
-            "match": {
-              "location": "SensorStep.create_a_Sensor_with_values()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 49298700254,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Verify if Sensor is present by filter with: Serial,,true",
+            "name": "I should only see items related to \u0027shoes\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "Serial,,true",
-                  "offset": 44
+                  "val": "shoes",
+                  "offset": 36
                 }
               ],
-              "location": "SensorStep.verify_sensor_created(String\u003e)"
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
             },
             "keyword": "Then "
-          },
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Should list items related to a specified keyword",
+        "description": "",
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 44180426213,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Edit a Sensor with Serial,0",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Serial,0",
-                  "offset": 19
-                }
-              ],
-              "location": "SensorStep.edit_a_sensor_with_Search(String\u003e)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 25610650516,
+              "duration": 6193775485,
               "status": "passed"
             },
             "line": 14,
-            "name": "Delete a Sensor",
+            "name": "I want to buy a wool scarf",
             "match": {
-              "location": "SensorStep.delete_a_Sensor()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 8,
-            "name": "@BAT"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 188263872,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I Login to Admin",
-            "match": {
-              "location": "LoginStep.java:43"
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 9409171766,
+              "duration": 4117743241,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Close Modal Dialog If Open",
+            "line": 15,
+            "name": "I search for items containing \u0027suits\u0027",
             "match": {
-              "location": "LoginStep.java:71"
+              "arguments": [
+                {
+                  "val": "suits",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3231792224,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should only see items related to \u0027suits\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suits",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "before": [
-          {
-            "result": {
-              "duration": 191016,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PlaceStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 37954196,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PermissionsStep.initPermissions()"
-            }
-          },
-          {
-            "result": {
-              "duration": 156165,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AttributeStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 126762,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VehicleStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 123549,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PersonStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 19310345,
-              "status": "passed"
-            },
-            "match": {
-              "location": "RolesStep.initroles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 248495,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GroupStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 25562,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 105111,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CompaniesStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 47282,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 46374,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SensorStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 110279,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ProfileStep.initVehicles()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "Navigate to Sensor page,Assign sensor to vehicle",
+        "line": 18,
+        "name": "Should list items related to a specified keyword",
         "description": "",
-        "id": "sensor-bat-feature;navigate-to-sensor-page,assign-sensor-to-vehicle",
-        "after": [
-          {
-            "result": {
-              "duration": 481142784,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VehicleStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 173431260,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 38483,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.afterAll()"
-            }
-          },
-          {
-            "result": {
-              "duration": 178619838,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SensorStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 176542829,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ProfileStep.tearDown()"
-            }
-          }
-        ],
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 16193140749,
+              "duration": 5971276845,
               "status": "passed"
             },
             "line": 19,
-            "name": "goto Vehicles Page",
-            "match": {
-              "location": "VehicleStep.i_go_to_Vehicles_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 76932641579,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "create a vehicle",
-            "match": {
-              "location": "VehicleStep.create_a_Vehicle()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9941020438,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "goto Sensors Page",
-            "match": {
-              "location": "SensorStep.goto_Sensors_Page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 34165994211,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Create a Sensor",
-            "match": {
-              "location": "SensorStep.create_a_Sensor_with_values()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 26552681905,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Search sensor by \"Serial\" \"\"",
+            "name": "I want to buy a wool scarf",
             "match": {
               "arguments": [
                 {
-                  "val": "Serial",
-                  "offset": 18
-                },
-                {
-                  "val": "",
-                  "offset": 27
+                  "val": "a wool scarf",
+                  "offset": 14
                 }
               ],
-              "location": "SensorStep.search_sensor(String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 57171710650,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Assign sensor to vehicle",
-            "match": {
-              "location": "SensorStep.assign_sensor_to_vehicl()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 58973574086,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "Unassign sensor to vehicle",
-            "match": {
-              "location": "SensorStep.unassign_sensor_to_vehicl()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 25408408820,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "Delete a Sensor",
-            "match": {
-              "location": "SensorStep.delete_a_Sensor()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15546251269,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "goto Vehicles Page",
-            "match": {
-              "location": "VehicleStep.i_go_to_Vehicles_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 23638431281,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "search created vehicle",
-            "match": {
-              "location": "VehicleStep.search_created_vehicle()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 12419514910,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Delete vehicle",
-            "match": {
-              "location": "VehicleStep.Delete_vehicle()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 16,
-            "name": "@BAT"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 80024277,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I Login to Admin",
-            "match": {
-              "location": "LoginStep.java:43"
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8042006736,
+              "duration": 3571766179,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Close Modal Dialog If Open",
+            "line": 20,
+            "name": "I search for items containing \u0027garments\u0027",
             "match": {
-              "location": "LoginStep.java:71"
+              "arguments": [
+                {
+                  "val": "garments",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3246516241,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should only see items related to \u0027garments\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "garments",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "before": [
-          {
-            "result": {
-              "duration": 135352,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PlaceStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 46828159,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PermissionsStep.initPermissions()"
-            }
-          },
-          {
-            "result": {
-              "duration": 169155,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AttributeStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 173137,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VehicleStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 110279,
-              "status": "passed"
-            },
-            "match": {
-              "location": "PersonStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 24672340,
-              "status": "passed"
-            },
-            "match": {
-              "location": "RolesStep.initroles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 199677,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GroupStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 26331,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 107835,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CompaniesStep.initVehicles()"
-            }
-          },
-          {
-            "result": {
-              "duration": 64114,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 47701,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SensorStep.initSensor()"
-            }
-          },
-          {
-            "result": {
-              "duration": 88279,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ProfileStep.initVehicles()"
-            }
-          }
-        ],
-        "line": 32,
-        "name": "Navigate to Sensor page,Assign sensor to profile",
+        "line": 23,
+        "name": "Should list items related to a specified keyword",
         "description": "",
-        "id": "sensor-bat-feature;navigate-to-sensor-page,assign-sensor-to-profile",
-        "after": [
-          {
-            "result": {
-              "duration": 521917660,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VehicleStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 190888577,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 36247,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AssetStep.afterAll()"
-            }
-          },
-          {
-            "result": {
-              "duration": 202563664,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SensorStep.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 349315905,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ProfileStep.tearDown()"
-            }
-          }
-        ],
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9644267847,
+              "duration": 6012696491,
               "status": "passed"
             },
-            "line": 34,
-            "name": "Go To ProfilePage",
-            "match": {
-              "location": "ProfileStep.goto_profilePage()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 133107658864,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "create a profile",
-            "match": {
-              "location": "ProfileStep.create_a_Profile()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10463467284,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "goto Sensors Page",
-            "match": {
-              "location": "SensorStep.goto_Sensors_Page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 26424052079,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "Create a Sensor",
-            "match": {
-              "location": "SensorStep.create_a_Sensor_with_values()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 30005661124,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "Search sensor by \"Serial\" \"\"",
+            "line": 24,
+            "name": "I want to buy a wool scarf",
             "match": {
               "arguments": [
                 {
-                  "val": "Serial",
-                  "offset": 18
-                },
-                {
-                  "val": "",
-                  "offset": 27
+                  "val": "a wool scarf",
+                  "offset": 14
                 }
               ],
-              "location": "SensorStep.search_sensor(String,String)"
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 26544787605,
+              "duration": 4522357651,
               "status": "passed"
             },
-            "line": 39,
-            "name": "Assign sensor to profile",
+            "line": 25,
+            "name": "I search for items containing \u0027toys\u0027",
             "match": {
-              "location": "SensorStep.assign_sensor_to_profile()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 19118216491,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "Unassign sensor to profile",
-            "match": {
-              "location": "SensorStep.unassign_sensor_to_profile()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 18034096023,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "Delete a Sensor",
-            "match": {
-              "location": "SensorStep.delete_a_Sensor()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9540381249,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "Go To ProfilePage",
-            "match": {
-              "location": "ProfileStep.goto_profilePage()"
+              "arguments": [
+                {
+                  "val": "toys",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 69867436853,
+              "duration": 3201864224,
               "status": "passed"
             },
-            "line": 43,
-            "name": "Delete a profile",
+            "line": 26,
+            "name": "I should only see items related to \u0027toys\u0027",
             "match": {
-              "location": "ProfileStep.delete_a_Profile()"
+              "arguments": [
+                {
+                  "val": "toys",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 31,
-            "name": "@BAT"
           }
         ]
       }
     ],
-    "name": "Sensor BAT Feature",
+    "name": "Searching by keyword",
     "description": "",
-    "id": "sensor-bat-feature",
+    "id": "searching-by-keyword",
     "keyword": "Feature",
-    "uri": "features/adminUI/sensor/sensorBAT.feature"
+    "uri": "src/test/resources/features/Ecommerce_Search/SearchingItseProducts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Looking up the definition of \u0027apple\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--apple-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4785366551,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3661869475,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user looks up the definition of the word \u0027apple\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apple",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1521924942,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they should see the definition \u0027A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Looking up the definition of \u0027pear\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--pear-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4896250966,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3432359965,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user looks up the definition of the word \u0027pear\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pear",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1035249950,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Looking up the definition of \u0027mango\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--mango-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4773761078,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3945141724,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user looks up the definition of the word \u0027mango\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mango",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1217039852,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "they should see the definition \u0027A tropical Asian fruit tree, Mangifera indica.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A tropical Asian fruit tree, Mangifera indica.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Looking up the definition of \u0027cucumber\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--cucumber-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5592887960,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3871201932,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user looks up the definition of the word \u0027cucumber\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cucumber",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1038206177,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "they should see the definition \u0027The edible fruit of this plant, having a green rind and crisp white flesh.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The edible fruit of this plant, having a green rind and crisp white flesh.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Lookup a definition",
+    "description": "  In order to talk better\n  As an English student\n  I want to look up word definitions",
+    "id": "lookup-a-definition",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/consult_dictionary/LookupADefinition.feature"
   }
 ]
