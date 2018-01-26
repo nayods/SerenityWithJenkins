@@ -1,0 +1,974 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33273261755,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Login to Admin",
+            "match": {
+              "location": "LoginStep.java:43"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8523693095,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Close Modal Dialog If Open",
+            "match": {
+              "location": "LoginStep.java:71"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8307170464,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PlaceStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 536235960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PermissionsStep.initPermissions()"
+            }
+          },
+          {
+            "result": {
+              "duration": 223911,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttributeStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 250730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 187384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PersonStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29452486,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RolesStep.initroles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 293194,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GroupStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 223003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 252127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CompaniesStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 119499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 104622,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SensorStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 144641,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProfileStep.initVehicles()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Navigate to Sensors Page , Create Sensor , Update Sensor, Search Sensor , Delete Sensor",
+        "description": "",
+        "id": "sensor-bat-feature;navigate-to-sensors-page-,-create-sensor-,-update-sensor,-search-sensor-,-delete-sensor",
+        "after": [
+          {
+            "result": {
+              "duration": 417649100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 167663977,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 39669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.afterAll()"
+            }
+          },
+          {
+            "result": {
+              "duration": 168214186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SensorStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 156617740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProfileStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10089150297,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "goto Sensors Page",
+            "match": {
+              "location": "SensorStep.goto_Sensors_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24458088039,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Create a Sensor",
+            "match": {
+              "location": "SensorStep.create_a_Sensor_with_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49298700254,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify if Sensor is present by filter with: Serial,,true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Serial,,true",
+                  "offset": 44
+                }
+              ],
+              "location": "SensorStep.verify_sensor_created(String\u003e)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44180426213,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Edit a Sensor with Serial,0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Serial,0",
+                  "offset": 19
+                }
+              ],
+              "location": "SensorStep.edit_a_sensor_with_Search(String\u003e)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25610650516,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Delete a Sensor",
+            "match": {
+              "location": "SensorStep.delete_a_Sensor()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@BAT"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 188263872,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Login to Admin",
+            "match": {
+              "location": "LoginStep.java:43"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9409171766,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Close Modal Dialog If Open",
+            "match": {
+              "location": "LoginStep.java:71"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 191016,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PlaceStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37954196,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PermissionsStep.initPermissions()"
+            }
+          },
+          {
+            "result": {
+              "duration": 156165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttributeStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 126762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 123549,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PersonStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 19310345,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RolesStep.initroles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 248495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GroupStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 25562,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 105111,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CompaniesStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47282,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46374,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SensorStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProfileStep.initVehicles()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Navigate to Sensor page,Assign sensor to vehicle",
+        "description": "",
+        "id": "sensor-bat-feature;navigate-to-sensor-page,assign-sensor-to-vehicle",
+        "after": [
+          {
+            "result": {
+              "duration": 481142784,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 173431260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 38483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.afterAll()"
+            }
+          },
+          {
+            "result": {
+              "duration": 178619838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SensorStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 176542829,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProfileStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16193140749,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "goto Vehicles Page",
+            "match": {
+              "location": "VehicleStep.i_go_to_Vehicles_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76932641579,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "create a vehicle",
+            "match": {
+              "location": "VehicleStep.create_a_Vehicle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9941020438,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "goto Sensors Page",
+            "match": {
+              "location": "SensorStep.goto_Sensors_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34165994211,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Create a Sensor",
+            "match": {
+              "location": "SensorStep.create_a_Sensor_with_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26552681905,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Search sensor by \"Serial\" \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Serial",
+                  "offset": 18
+                },
+                {
+                  "val": "",
+                  "offset": 27
+                }
+              ],
+              "location": "SensorStep.search_sensor(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57171710650,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Assign sensor to vehicle",
+            "match": {
+              "location": "SensorStep.assign_sensor_to_vehicl()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58973574086,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Unassign sensor to vehicle",
+            "match": {
+              "location": "SensorStep.unassign_sensor_to_vehicl()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25408408820,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Delete a Sensor",
+            "match": {
+              "location": "SensorStep.delete_a_Sensor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15546251269,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "goto Vehicles Page",
+            "match": {
+              "location": "VehicleStep.i_go_to_Vehicles_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23638431281,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "search created vehicle",
+            "match": {
+              "location": "VehicleStep.search_created_vehicle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12419514910,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Delete vehicle",
+            "match": {
+              "location": "VehicleStep.Delete_vehicle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@BAT"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 80024277,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Login to Admin",
+            "match": {
+              "location": "LoginStep.java:43"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8042006736,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Close Modal Dialog If Open",
+            "match": {
+              "location": "LoginStep.java:71"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 135352,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PlaceStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46828159,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PermissionsStep.initPermissions()"
+            }
+          },
+          {
+            "result": {
+              "duration": 169155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttributeStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 173137,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PersonStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24672340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RolesStep.initroles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 199677,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GroupStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26331,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CompaniesStep.initVehicles()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64114,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SensorStep.initSensor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 88279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProfileStep.initVehicles()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Navigate to Sensor page,Assign sensor to profile",
+        "description": "",
+        "id": "sensor-bat-feature;navigate-to-sensor-page,assign-sensor-to-profile",
+        "after": [
+          {
+            "result": {
+              "duration": 521917660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 190888577,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 36247,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AssetStep.afterAll()"
+            }
+          },
+          {
+            "result": {
+              "duration": 202563664,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SensorStep.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 349315905,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProfileStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9644267847,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Go To ProfilePage",
+            "match": {
+              "location": "ProfileStep.goto_profilePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133107658864,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "create a profile",
+            "match": {
+              "location": "ProfileStep.create_a_Profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10463467284,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "goto Sensors Page",
+            "match": {
+              "location": "SensorStep.goto_Sensors_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26424052079,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Create a Sensor",
+            "match": {
+              "location": "SensorStep.create_a_Sensor_with_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30005661124,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Search sensor by \"Serial\" \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Serial",
+                  "offset": 18
+                },
+                {
+                  "val": "",
+                  "offset": 27
+                }
+              ],
+              "location": "SensorStep.search_sensor(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26544787605,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Assign sensor to profile",
+            "match": {
+              "location": "SensorStep.assign_sensor_to_profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19118216491,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Unassign sensor to profile",
+            "match": {
+              "location": "SensorStep.unassign_sensor_to_profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18034096023,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Delete a Sensor",
+            "match": {
+              "location": "SensorStep.delete_a_Sensor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9540381249,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Go To ProfilePage",
+            "match": {
+              "location": "ProfileStep.goto_profilePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69867436853,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Delete a profile",
+            "match": {
+              "location": "ProfileStep.delete_a_Profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@BAT"
+          }
+        ]
+      }
+    ],
+    "name": "Sensor BAT Feature",
+    "description": "",
+    "id": "sensor-bat-feature",
+    "keyword": "Feature",
+    "uri": "features/adminUI/sensor/sensorBAT.feature"
+  }
+]

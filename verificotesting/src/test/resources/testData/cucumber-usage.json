@@ -1,0 +1,396 @@
+[
+  {
+    "source": "^Create a Sensor$",
+    "steps": [
+      {
+        "name": "Create a Sensor",
+        "aggregatedDurations": {
+          "average": 28.349378109,
+          "median": 26.424052079
+        },
+        "durations": [
+          {
+            "duration": 24.458088039,
+            "location": "features/adminUI/sensor/sensorBAT.feature:11"
+          },
+          {
+            "duration": 34.165994211,
+            "location": "features/adminUI/sensor/sensorBAT.feature:22"
+          },
+          {
+            "duration": 26.424052079,
+            "location": "features/adminUI/sensor/sensorBAT.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^create a profile$",
+    "steps": [
+      {
+        "name": "create a profile",
+        "aggregatedDurations": {
+          "average": 133.107658864,
+          "median": 133.107658864
+        },
+        "durations": [
+          {
+            "duration": 133.107658864,
+            "location": "features/adminUI/sensor/sensorBAT.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Search sensor by \"([^\"]*)\" \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Search sensor by \"Serial\" \"\"",
+        "aggregatedDurations": {
+          "average": 28.279171514,
+          "median": 28.279171514
+        },
+        "durations": [
+          {
+            "duration": 26.552681905,
+            "location": "features/adminUI/sensor/sensorBAT.feature:23"
+          },
+          {
+            "duration": 30.005661124,
+            "location": "features/adminUI/sensor/sensorBAT.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Go To ProfilePage$",
+    "steps": [
+      {
+        "name": "Go To ProfilePage",
+        "aggregatedDurations": {
+          "average": 9.592324548,
+          "median": 9.592324548
+        },
+        "durations": [
+          {
+            "duration": 9.644267847,
+            "location": "features/adminUI/sensor/sensorBAT.feature:34"
+          },
+          {
+            "duration": 9.540381249,
+            "location": "features/adminUI/sensor/sensorBAT.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Delete vehicle$",
+    "steps": [
+      {
+        "name": "Delete vehicle",
+        "aggregatedDurations": {
+          "average": 12.41951491,
+          "median": 12.41951491
+        },
+        "durations": [
+          {
+            "duration": 12.41951491,
+            "location": "features/adminUI/sensor/sensorBAT.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Close Modal Dialog If Open$",
+    "steps": [
+      {
+        "name": "Close Modal Dialog If Open",
+        "aggregatedDurations": {
+          "average": 8.658290532,
+          "median": 8.523693095
+        },
+        "durations": [
+          {
+            "duration": 8.523693095,
+            "location": "features/adminUI/sensor/sensorBAT.feature:6"
+          },
+          {
+            "duration": 9.409171766,
+            "location": "features/adminUI/sensor/sensorBAT.feature:6"
+          },
+          {
+            "duration": 8.042006736,
+            "location": "features/adminUI/sensor/sensorBAT.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Unassign sensor to profile$",
+    "steps": [
+      {
+        "name": "Unassign sensor to profile",
+        "aggregatedDurations": {
+          "average": 19.118216491,
+          "median": 19.118216491
+        },
+        "durations": [
+          {
+            "duration": 19.118216491,
+            "location": "features/adminUI/sensor/sensorBAT.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Delete a profile$",
+    "steps": [
+      {
+        "name": "Delete a profile",
+        "aggregatedDurations": {
+          "average": 69.867436853,
+          "median": 69.867436853
+        },
+        "durations": [
+          {
+            "duration": 69.867436853,
+            "location": "features/adminUI/sensor/sensorBAT.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^goto Sensors Page$",
+    "steps": [
+      {
+        "name": "goto Sensors Page",
+        "aggregatedDurations": {
+          "average": 10.164546006,
+          "median": 10.089150297
+        },
+        "durations": [
+          {
+            "duration": 10.089150297,
+            "location": "features/adminUI/sensor/sensorBAT.feature:10"
+          },
+          {
+            "duration": 9.941020438,
+            "location": "features/adminUI/sensor/sensorBAT.feature:21"
+          },
+          {
+            "duration": 10.463467284,
+            "location": "features/adminUI/sensor/sensorBAT.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify if Sensor is present by filter with: (.*)$",
+    "steps": [
+      {
+        "name": "Verify if Sensor is present by filter with: Serial,,true",
+        "aggregatedDurations": {
+          "average": 49.298700254,
+          "median": 49.298700254
+        },
+        "durations": [
+          {
+            "duration": 49.298700254,
+            "location": "features/adminUI/sensor/sensorBAT.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^create a vehicle$",
+    "steps": [
+      {
+        "name": "create a vehicle",
+        "aggregatedDurations": {
+          "average": 76.932641579,
+          "median": 76.932641579
+        },
+        "durations": [
+          {
+            "duration": 76.932641579,
+            "location": "features/adminUI/sensor/sensorBAT.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I Login to Admin$",
+    "steps": [
+      {
+        "name": "I Login to Admin",
+        "aggregatedDurations": {
+          "average": 11.180516634,
+          "median": 0.188263872
+        },
+        "durations": [
+          {
+            "duration": 33.273261755,
+            "location": "features/adminUI/sensor/sensorBAT.feature:5"
+          },
+          {
+            "duration": 0.188263872,
+            "location": "features/adminUI/sensor/sensorBAT.feature:5"
+          },
+          {
+            "duration": 0.080024277,
+            "location": "features/adminUI/sensor/sensorBAT.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Assign sensor to vehicle$",
+    "steps": [
+      {
+        "name": "Assign sensor to vehicle",
+        "aggregatedDurations": {
+          "average": 57.17171065,
+          "median": 57.17171065
+        },
+        "durations": [
+          {
+            "duration": 57.17171065,
+            "location": "features/adminUI/sensor/sensorBAT.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Unassign sensor to vehicle$",
+    "steps": [
+      {
+        "name": "Unassign sensor to vehicle",
+        "aggregatedDurations": {
+          "average": 58.973574086,
+          "median": 58.973574086
+        },
+        "durations": [
+          {
+            "duration": 58.973574086,
+            "location": "features/adminUI/sensor/sensorBAT.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^search created vehicle$",
+    "steps": [
+      {
+        "name": "search created vehicle",
+        "aggregatedDurations": {
+          "average": 23.638431281,
+          "median": 23.638431281
+        },
+        "durations": [
+          {
+            "duration": 23.638431281,
+            "location": "features/adminUI/sensor/sensorBAT.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Delete a Sensor$",
+    "steps": [
+      {
+        "name": "Delete a Sensor",
+        "aggregatedDurations": {
+          "average": 23.017718453,
+          "median": 25.40840882
+        },
+        "durations": [
+          {
+            "duration": 25.610650516,
+            "location": "features/adminUI/sensor/sensorBAT.feature:14"
+          },
+          {
+            "duration": 25.40840882,
+            "location": "features/adminUI/sensor/sensorBAT.feature:26"
+          },
+          {
+            "duration": 18.034096023,
+            "location": "features/adminUI/sensor/sensorBAT.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Edit a Sensor with (.*)$",
+    "steps": [
+      {
+        "name": "Edit a Sensor with Serial,0",
+        "aggregatedDurations": {
+          "average": 44.180426213,
+          "median": 44.180426213
+        },
+        "durations": [
+          {
+            "duration": 44.180426213,
+            "location": "features/adminUI/sensor/sensorBAT.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^goto Vehicles Page$",
+    "steps": [
+      {
+        "name": "goto Vehicles Page",
+        "aggregatedDurations": {
+          "average": 15.869696009,
+          "median": 15.869696009
+        },
+        "durations": [
+          {
+            "duration": 16.193140749,
+            "location": "features/adminUI/sensor/sensorBAT.feature:19"
+          },
+          {
+            "duration": 15.546251269,
+            "location": "features/adminUI/sensor/sensorBAT.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Assign sensor to profile$",
+    "steps": [
+      {
+        "name": "Assign sensor to profile",
+        "aggregatedDurations": {
+          "average": 26.544787605,
+          "median": 26.544787605
+        },
+        "durations": [
+          {
+            "duration": 26.544787605,
+            "location": "features/adminUI/sensor/sensorBAT.feature:39"
+          }
+        ]
+      }
+    ]
+  }
+]
