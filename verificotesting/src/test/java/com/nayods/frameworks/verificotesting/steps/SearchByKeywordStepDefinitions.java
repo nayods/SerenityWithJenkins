@@ -27,9 +27,4 @@ public class SearchByKeywordStepDefinitions {
         buyer.should_see_items_related_to(keyword);
     }
     
-
-
-
-
-
 }
