@@ -1,6 +1,7 @@
 package com.nayods.frameworks.verificotesting.steps;
 
-import com.nayods.frameworks.verificotesting.steps.serenity.ShippingMethodUsersSteps;
+import com.nayods.frameworks.verificotesting.steps.serenity.BuyerSteps;
+
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
@@ -10,20 +11,21 @@ import net.thucydides.core.annotations.Steps;
 
 public class ShippingMethodsSteps {
 
+
+	
 	@Steps
-	ShippingMethodUsersSteps shipmethods;
+	BuyerSteps buyers;
 	
 	@Given("^the customer is on the itse webpage$")
 	public void the_customer_is_on_the_itse_webpage() throws Exception {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   buyers.opens_etsy_home_page();
+	   
 	}
 
 
 	@When("^they select the product to puchase$")
 	public void they_select_the_product_to_puchase() throws Exception {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+		 throw new PendingException();
 	}
 
 	@When("^they click on the buynow button$")
