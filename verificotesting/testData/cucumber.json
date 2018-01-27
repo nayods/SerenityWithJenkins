@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8640755092,
+              "duration": 19141790839,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3963086196,
+              "duration": 3962459117,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1689202455,
+              "duration": 1763931231,
               "status": "passed"
             },
             "line": 9,
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5153236050,
+              "duration": 5064498684,
               "status": "passed"
             },
             "line": 12,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 4044161779,
+              "duration": 3948306292,
               "status": "passed"
             },
             "line": 13,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 1180102215,
+              "duration": 1311664605,
               "status": "passed"
             },
             "line": 14,
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5165734884,
+              "duration": 5162562508,
               "status": "passed"
             },
             "line": 17,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 4588700998,
+              "duration": 4335104440,
               "status": "passed"
             },
             "line": 18,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 1505628708,
+              "duration": 1364702875,
               "status": "passed"
             },
             "line": 19,
@@ -186,7 +186,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4924964260,
+              "duration": 5195390027,
               "status": "passed"
             },
             "line": 22,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 3880899870,
+              "duration": 3926433332,
               "status": "passed"
             },
             "line": 23,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 1177690469,
+              "duration": 1275536499,
               "status": "passed"
             },
             "line": 24,
@@ -254,7 +254,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6794922719,
+              "duration": 6827489299,
               "status": "passed"
             },
             "line": 4,
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 4428223958,
+              "duration": 4130852716,
               "status": "passed"
             },
             "line": 5,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 3528113541,
+              "duration": 3521763447,
               "status": "passed"
             },
             "line": 6,
@@ -318,7 +318,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6679367678,
+              "duration": 6251760114,
               "status": "passed"
             },
             "line": 9,
@@ -336,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 3876758111,
+              "duration": 4240248744,
               "status": "passed"
             },
             "line": 10,
@@ -354,7 +354,7 @@
           },
           {
             "result": {
-              "duration": 3488169132,
+              "duration": 3548865485,
               "status": "passed"
             },
             "line": 11,
@@ -382,7 +382,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6677636021,
+              "duration": 6576332840,
               "status": "passed"
             },
             "line": 14,
@@ -400,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 4209596685,
+              "duration": 3601531452,
               "status": "passed"
             },
             "line": 15,
@@ -418,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 3350336778,
+              "duration": 3391147015,
               "status": "passed"
             },
             "line": 16,
@@ -446,7 +446,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6585087283,
+              "duration": 6470599016,
               "status": "passed"
             },
             "line": 19,
@@ -464,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 3881685979,
+              "duration": 4145114438,
               "status": "passed"
             },
             "line": 20,
@@ -482,7 +482,7 @@
           },
           {
             "result": {
-              "duration": 3527237851,
+              "duration": 3395584643,
               "status": "passed"
             },
             "line": 21,
@@ -510,7 +510,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6610675458,
+              "duration": 7234269719,
               "status": "passed"
             },
             "line": 24,
@@ -528,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 3914688554,
+              "duration": 3944498208,
               "status": "passed"
             },
             "line": 25,
@@ -546,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 3424839132,
+              "duration": 3357815696,
               "status": "passed"
             },
             "line": 26,
@@ -570,5 +570,82 @@
     "id": "searching-by-keyword",
     "keyword": "Feature",
     "uri": "src/test/resources/features/ecommerce_Search/searchProducts/SearchingItseProducts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "customer selecting shipping methods",
+        "description": "",
+        "id": "as-a-customer-i-should-be-able-to-select-shipping-methods;customer-selecting-shipping-methods",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.nayods.frameworks.verificotesting.steps.ShippingMethodsSteps.the_customer_is_on_the_itse_webpage(ShippingMethodsSteps.java:19)\r\n\tat ✽.the customer is on the itse webpage(src/test/resources/features/ecommerce_Search/shippingProducts/ShippingmethodsFeature.feature:3)\r\n",
+              "duration": 14020917,
+              "status": "pending"
+            },
+            "line": 3,
+            "name": "the customer is on the itse webpage",
+            "match": {
+              "location": "ShippingMethodsSteps.the_customer_is_on_the_itse_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "they select the product to puchase",
+            "match": {
+              "location": "ShippingMethodsSteps.they_select_the_product_to_puchase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "they click on the buynow button",
+            "match": {
+              "location": "ShippingMethodsSteps.they_click_on_the_buynow_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "they are on the payment page",
+            "match": {
+              "location": "ShippingMethodsSteps.they_are_on_the_payment_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "they should be able to select the add shipping method",
+            "match": {
+              "location": "ShippingMethodsSteps.they_should_be_able_to_select_the_add_shipping_method()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I should be able to select shipping methods",
+    "description": "",
+    "id": "as-a-customer-i-should-be-able-to-select-shipping-methods",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ecommerce_Search/shippingProducts/ShippingmethodsFeature.feature"
   }
 ]
