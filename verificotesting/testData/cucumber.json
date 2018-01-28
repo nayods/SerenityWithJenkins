@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7267492964,
+              "duration": 7656189606,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 4110475950,
+              "duration": 4148405161,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1789776648,
+              "duration": 1713423056,
               "status": "passed"
             },
             "line": 9,
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5011582872,
+              "duration": 4725516713,
               "status": "passed"
             },
             "line": 12,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 3872971395,
+              "duration": 4006122029,
               "status": "passed"
             },
             "line": 13,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 1209787768,
+              "duration": 1231230072,
               "status": "passed"
             },
             "line": 14,
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4820295154,
+              "duration": 4670073273,
               "status": "passed"
             },
             "line": 17,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 4284125338,
+              "duration": 4383597417,
               "status": "passed"
             },
             "line": 18,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 1398247879,
+              "duration": 1487519452,
               "status": "passed"
             },
             "line": 19,
@@ -186,7 +186,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5303062617,
+              "duration": 4799057903,
               "status": "passed"
             },
             "line": 22,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 3910942931,
+              "duration": 3828916457,
               "status": "passed"
             },
             "line": 23,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 1224999147,
+              "duration": 1324663541,
               "status": "passed"
             },
             "line": 24,
@@ -254,7 +254,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6766818423,
+              "duration": 6486077911,
               "status": "passed"
             },
             "line": 4,
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 4516688056,
+              "duration": 4240875412,
               "status": "passed"
             },
             "line": 5,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 3642984795,
+              "duration": 3496911248,
               "status": "passed"
             },
             "line": 6,
@@ -318,7 +318,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6804566825,
+              "duration": 6413217221,
               "status": "passed"
             },
             "line": 9,
@@ -336,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 4481866705,
+              "duration": 4000343537,
               "status": "passed"
             },
             "line": 10,
@@ -354,7 +354,7 @@
           },
           {
             "result": {
-              "duration": 3506642882,
+              "duration": 3479185800,
               "status": "passed"
             },
             "line": 11,
@@ -382,7 +382,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6660202333,
+              "duration": 6638893169,
               "status": "passed"
             },
             "line": 14,
@@ -400,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 4433077037,
+              "duration": 3875348623,
               "status": "passed"
             },
             "line": 15,
@@ -418,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 3394229809,
+              "duration": 3406966160,
               "status": "passed"
             },
             "line": 16,
@@ -446,7 +446,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6685146580,
+              "duration": 6357349291,
               "status": "passed"
             },
             "line": 19,
@@ -464,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 3661966043,
+              "duration": 4166871926,
               "status": "passed"
             },
             "line": 20,
@@ -482,7 +482,7 @@
           },
           {
             "result": {
-              "duration": 3396661690,
+              "duration": 3383295795,
               "status": "passed"
             },
             "line": 21,
@@ -510,7 +510,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6836987936,
+              "duration": 6639737629,
               "status": "passed"
             },
             "line": 24,
@@ -528,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 4172515633,
+              "duration": 3938298102,
               "status": "passed"
             },
             "line": 25,
@@ -546,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 3432966085,
+              "duration": 3296382956,
               "status": "passed"
             },
             "line": 26,
@@ -584,7 +584,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6696698633,
+              "duration": 6319187493,
               "status": "passed"
             },
             "line": 3,
@@ -597,7 +597,7 @@
           {
             "result": {
               "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.nayods.frameworks.verificotesting.steps.ShippingMethodsSteps.they_select_the_product_to_puchase(ShippingMethodsSteps.java:28)\r\n\tat ✽.they select the product to puchase(src/test/resources/features/ecommerce_Search/shippingProducts/ShippingmethodsFeature.feature:4)\r\n",
-              "duration": 478383666,
+              "duration": 401744889,
               "status": "pending"
             },
             "line": 4,
