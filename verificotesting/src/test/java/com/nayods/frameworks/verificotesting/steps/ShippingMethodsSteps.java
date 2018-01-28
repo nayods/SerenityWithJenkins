@@ -1,7 +1,6 @@
 package com.nayods.frameworks.verificotesting.steps;
 
-import com.nayods.frameworks.verificotesting.steps.serenity.BuyerSteps;
-
+import com.nayods.frameworks.verificotesting.steps.serenity.ShippingMethodUserSteps;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
@@ -13,31 +12,37 @@ public class ShippingMethodsSteps {
 
 
 	
+	
+	
+	
 	@Steps
-	BuyerSteps buyers;
+	ShippingMethodUserSteps shippingmets;
+	
 	
 	@Given("^the customer is on the itse webpage$")
 	public void the_customer_is_on_the_itse_webpage() throws Exception {
-	   buyers.opens_etsy_home_page();
-	   
+	   shippingmets.open_etsy_homepage();
+	   shippingmets.select_TabNavigation();
 	}
 
 
 	@When("^they select the product to puchase$")
 	public void they_select_the_product_to_puchase() throws Exception {
-		 throw new PendingException();
+		
+		
+		shippingmets.Select_product_to_buy();
+		
 	}
 
 	@When("^they click on the buynow button$")
 	public void they_click_on_the_buynow_button() throws Exception {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	   
+	    shippingmets.Purchase_product_Now();
 	}
 
 	@When("^they are on the payment page$")
 	public void they_are_on_the_payment_page() throws Exception {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	 throw new PendingException();
 	}
 
 	@Then("^they should be able to select the add shipping method$")

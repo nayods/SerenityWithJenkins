@@ -10,7 +10,11 @@ import net.serenitybdd.core.pages.PageObject;
 
 public class SearchResultsPage extends PageObject {
 
-    @FindBy(css=".listing-card")
+
+	
+	
+	
+	@FindBy(css=".listing-card")
     List<WebElement> listingCards;
 
     public List<String> getResultTitles() {
