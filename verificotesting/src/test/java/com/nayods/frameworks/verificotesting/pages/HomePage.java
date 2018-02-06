@@ -2,6 +2,7 @@ package com.nayods.frameworks.verificotesting.pages;
 
 import org.openqa.selenium.WebElement;
 
+import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -58,6 +59,13 @@ public class HomePage extends PageObject {
     
     @FindBy(css="#item-info > div > div.buy-box__buttons > div > form > button > div.btn-text")
     WebElementFacade buynowButton;
+    @FindBy(css="#multi-shop-cart-list > div:nth-child(1) > div > div.multi-shop-cart-col-group.col-group.position-relative.pl-xs-0.pr-xs-0 > div.payment-col.col-xs-12.col-sm-12.col-md-5.col-lg-4.p-xs-0.pt-xs-2.mt-md-0.mt-xs-2.pt-md-0.pl-md-3.bt-xs-1.bt-md-0.bl-md-1 > div > form > div:nth-child(7) > button > span.submit-button-text")
+    WebElementFacade proceedToCheckOut;
+    
+    @FindBy(css="")
+WebElementFacade emailSubmission;    
+    @FindBy(xpath="//*[@id=\"guest-checkout-signin-overlay\"]/div/div[2]/form/button/div[2]")
+    WebElementFacade continuetoCheckOut;
     
     public void click_on_the_buynow() {
     	variants_selector_color.selectByIndex(1);
@@ -67,6 +75,16 @@ public class HomePage extends PageObject {
     	variants_selector_quantity.selectByIndex(6);
     	waitABit(3000);
     	buynowButton.click();
+    	waitABit(300);
+    	proceedToCheckOut.click();
+    	waitABit(3000);
+    	waitForRenderedElementsToDisappear(By.xpath("//*[@id=\"guest-checkout-signin-overlay\"]/div/div[2]"));
+    	waitABit(3000);
+    	emailSubmission.setWindowFocus();
+    	emailSubmission.typeAndEnter("brjakson@yahoo.com");
+    	
+    	continuetoCheckOut.click();
+    	
     }
     
     
