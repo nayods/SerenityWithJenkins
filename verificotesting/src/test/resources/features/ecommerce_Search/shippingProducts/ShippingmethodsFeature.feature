@@ -1,4 +1,5 @@
 Feature: As a customer I should be able to select shipping methods
+
 Scenario: customer selecting shipping methods
 Given the customer is on the itse webpage
 When they select the product to puchase

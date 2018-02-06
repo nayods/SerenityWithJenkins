@@ -61,8 +61,11 @@ public class HomePage extends PageObject {
     
     public void click_on_the_buynow() {
     	variants_selector_color.selectByIndex(1);
+    	waitABit(3000);
     	variants_selector_size.selectByIndex(2);
+    	waitABit(3000);
     	variants_selector_quantity.selectByIndex(6);
+    	waitABit(3000);
     	buynowButton.click();
     }
     
