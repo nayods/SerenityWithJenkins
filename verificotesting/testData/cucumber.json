@@ -1,0 +1,655 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Looking up the definition of \u0027apple\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--apple-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7809441135,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3569290734,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user looks up the definition of the word \u0027apple\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apple",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1545918225,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they should see the definition \u0027A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Looking up the definition of \u0027pear\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--pear-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4883161701,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3339495788,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user looks up the definition of the word \u0027pear\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pear",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1052459420,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Looking up the definition of \u0027mango\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--mango-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4756418327,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3894169714,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user looks up the definition of the word \u0027mango\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mango",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1207319910,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "they should see the definition \u0027A tropical Asian fruit tree, Mangifera indica.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A tropical Asian fruit tree, Mangifera indica.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Looking up the definition of \u0027cucumber\u0027",
+        "description": "",
+        "id": "lookup-a-definition;looking-up-the-definition-of--cucumber-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4612054654,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is on the Wikionary home page",
+            "match": {
+              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3437325252,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user looks up the definition of the word \u0027cucumber\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cucumber",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1058043558,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "they should see the definition \u0027The edible fruit of this plant, having a green rind and crisp white flesh.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The edible fruit of this plant, having a green rind and crisp white flesh.",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Lookup a definition",
+    "description": "  In order to talk better\n  As an English student\n  I want to look up word definitions",
+    "id": "lookup-a-definition",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/consult_dictionary/LookupADefinition.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Should list items related to a specified keyword",
+        "description": "",
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5995391823,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to buy a wool scarf",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4242098623,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search for items containing \u0027wool\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wool",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3325788371,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should only see items related to \u0027wool\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wool",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Should list items related to a specified keyword",
+        "description": "",
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6265765359,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to buy a wool scarf",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4184836655,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for items containing \u0027shoes\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shoes",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3280626258,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should only see items related to \u0027shoes\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shoes",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Should list items related to a specified keyword",
+        "description": "",
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6071799055,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to buy a wool scarf",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3894032464,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I search for items containing \u0027suits\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suits",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3136629546,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should only see items related to \u0027suits\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suits",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Should list items related to a specified keyword",
+        "description": "",
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6005395110,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to buy a wool scarf",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3763133347,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I search for items containing \u0027garments\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "garments",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3264613520,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should only see items related to \u0027garments\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "garments",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Should list items related to a specified keyword",
+        "description": "",
+        "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5992204232,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to buy a wool scarf",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a wool scarf",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.buyerWantsToBuy(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4034278200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I search for items containing \u0027toys\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toys",
+                  "offset": 31
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.searchByKeyword(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3251860695,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should only see items related to \u0027toys\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toys",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchByKeywordStepDefinitions.resultsForACategoryAndKeywordInARegion(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching by keyword",
+    "description": "",
+    "id": "searching-by-keyword",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ecommerce_Search/searchProducts/SearchingItseProducts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "customer selecting shipping methods",
+        "description": "",
+        "id": "as-a-customer-i-should-be-able-to-select-shipping-methods;customer-selecting-shipping-methods",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14290916376,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the customer is on the itse webpage",
+            "match": {
+              "location": "ShippingMethodsSteps.the_customer_is_on_the_itse_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7318497227,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "they select the product to puchase",
+            "match": {
+              "location": "ShippingMethodsSteps.they_select_the_product_to_puchase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20296230943,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "they click on the buynow button",
+            "match": {
+              "location": "ShippingMethodsSteps.they_click_on_the_buynow_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17726711732,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "they are on the payment page",
+            "match": {
+              "location": "ShippingMethodsSteps.they_are_on_the_payment_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.nayods.frameworks.verificotesting.steps.ShippingMethodsSteps.they_should_be_able_to_select_the_add_shipping_method(ShippingMethodsSteps.java:48)\r\n\tat ✽.they should be able to select the add shipping method(src/test/resources/features/ecommerce_Search/shippingProducts/ShippingmethodsFeature.feature:8)\r\n",
+              "duration": 265123895,
+              "status": "pending"
+            },
+            "line": 8,
+            "name": "they should be able to select the add shipping method",
+            "match": {
+              "location": "ShippingMethodsSteps.they_should_be_able_to_select_the_add_shipping_method()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I should be able to select shipping methods",
+    "description": "",
+    "id": "as-a-customer-i-should-be-able-to-select-shipping-methods",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ecommerce_Search/shippingProducts/ShippingmethodsFeature.feature"
+  }
+]

@@ -2,7 +2,7 @@ package com.nayods.frameworks.verificotesting.pages;
 
 import org.openqa.selenium.WebElement;
 
-import net.serenitybdd.core.annotations.findby.By;
+
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -62,10 +62,14 @@ public class HomePage extends PageObject {
     @FindBy(css="#multi-shop-cart-list > div:nth-child(1) > div > div.multi-shop-cart-col-group.col-group.position-relative.pl-xs-0.pr-xs-0 > div.payment-col.col-xs-12.col-sm-12.col-md-5.col-lg-4.p-xs-0.pt-xs-2.mt-md-0.mt-xs-2.pt-md-0.pl-md-3.bt-xs-1.bt-md-0.bl-md-1 > div > form > div:nth-child(7) > button > span.submit-button-text")
     WebElementFacade proceedToCheckOut;
     
-    @FindBy(css="")
+    @FindBy(css="#guest-checkout-signin-overlay > div")
+    WebElementFacade waitForPopUp;
+    
+    @FindBy(css="#guest-checkout-signin-overlay > div > div.overlay-body > form > div > label > input")
 WebElementFacade emailSubmission;    
-    @FindBy(xpath="//*[@id=\"guest-checkout-signin-overlay\"]/div/div[2]/form/button/div[2]")
+    @FindBy(css="#guest-checkout-signin-overlay > div > div.overlay-body > form > button > div.guest-checkout-continue-msg")
     WebElementFacade continuetoCheckOut;
+    
     
     public void click_on_the_buynow() {
     	variants_selector_color.selectByIndex(1);
@@ -76,16 +80,60 @@ WebElementFacade emailSubmission;
     	waitABit(3000);
     	buynowButton.click();
     	waitABit(300);
+    	
+    	proceed_to_CheckOut();
+    	
+    }
+    public void proceed_to_CheckOut() {
     	proceedToCheckOut.click();
+    }
+    
+    public void submitting_inputField(String emailAdrress) {
+    	waitForPopUp.isEnabled();
+    	waitForPopUp.isDisplayed();
+    	emailSubmission.hasFocus();
     	waitABit(3000);
-    	waitForRenderedElementsToDisappear(By.xpath("//*[@id=\"guest-checkout-signin-overlay\"]/div/div[2]"));
-    	waitABit(3000);
-    	emailSubmission.setWindowFocus();
-    	emailSubmission.typeAndEnter("brjakson@yahoo.com");
-    	
+    	emailSubmission.typeAndTab(emailAdrress);
+    	waitABit(4000);
     	continuetoCheckOut.click();
-    	
     }
     
     
+    
+    @FindBy(css="#country_id > label > div > select")
+    WebElementFacade selectcountry;
+    
+    @FindBy(css="#name > label > input")
+    WebElementFacade fulnamesInputs;
+    
+    @FindBy(css="#first_line > label > input")
+    WebElementFacade enterStreetAddr;
+    
+    @FindBy(css="#city > label > input")
+    WebElementFacade enterCityName;
+    
+    @FindBy(css="#zip > label > input")
+    WebElementFacade enterPostcode;
+    
+    @FindBy(css="#shipping-address-form > div.form-footer > button")
+    WebElementFacade ShippingAddressbty;
+    
+    public void on_the_payments_form_page(String fulnames,String StreetAddr,String city,String postcode) {
+    	selectcountry.selectByIndex(13);
+    	waitABit(3000);
+    	fulnamesInputs.hasFocus();
+    	fulnamesInputs.typeAndTab(fulnames);
+    	waitABit(3000);
+    	enterStreetAddr.hasFocus();
+    	enterStreetAddr.typeAndTab(StreetAddr);
+    	waitABit(3000);
+    	enterCityName.hasFocus();
+    	enterCityName.type(city);
+    	waitABit(3000);
+    	enterPostcode.hasFocus();
+    	enterPostcode.typeAndTab(postcode);
+    	waitABit(3000);
+    	ShippingAddressbty.click();
+    	
+    }
 }

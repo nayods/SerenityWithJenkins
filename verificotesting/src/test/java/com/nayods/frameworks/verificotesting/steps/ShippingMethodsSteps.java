@@ -6,13 +6,11 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.thucydides.core.annotations.NotImplementedException;
 import net.thucydides.core.annotations.Steps;
 
 public class ShippingMethodsSteps {
 
-
-	
-	
 	
 	
 	@Steps
@@ -42,13 +40,14 @@ public class ShippingMethodsSteps {
 
 	@When("^they are on the payment page$")
 	public void they_are_on_the_payment_page() throws Exception {
-	 throw new PendingException();
+		shippingmets.navigate_to_checkout();
 	}
 
 	@Then("^they should be able to select the add shipping method$")
 	public void they_should_be_able_to_select_the_add_shipping_method() throws Exception {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
+	    
 	}
 
 	
