@@ -27,7 +27,7 @@ public class BuyerSteps {
     @Step
     public void should_see_items_related_to(String keywords) {
         List<String> resultTitles = searchResultsPage.getResultTitles();
-       // resultTitles.stream().forEach(title -> assertThat(title.contains(keywords)));
+      // resultTitles.stream().forEach(title -> assertThat(title.contains(keywords)));
         resultTitles.stream().sequential().forEach(title -> assertTrue(title.contains(keywords)));
     }
     
