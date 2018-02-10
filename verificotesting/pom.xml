@@ -16,6 +16,8 @@
         <serenity.cucumber.version>1.6.6</serenity.cucumber.version>
         <webdriver.driver>chrome</webdriver.driver>
         <webdriver.chrome.driver>webdrivers/chromedriver.exe</webdriver.chrome.driver>
+        
+        <slf4j.version>1.7.21</slf4j.version>
     </properties>
 
     <repositories>
@@ -40,6 +42,13 @@
     </pluginRepositories>
 
     <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+<dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.9.0</version>
+    <scope>test</scope>
+</dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>

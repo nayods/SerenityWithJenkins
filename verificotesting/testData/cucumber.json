@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7809441135,
+              "duration": 7669866583,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3569290734,
+              "duration": 3873753904,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1545918225,
+              "duration": 1654668726,
               "status": "passed"
             },
             "line": 9,
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4883161701,
+              "duration": 5076428981,
               "status": "passed"
             },
             "line": 12,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 3339495788,
+              "duration": 3517470098,
               "status": "passed"
             },
             "line": 13,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 1052459420,
+              "duration": 1158641808,
               "status": "passed"
             },
             "line": 14,
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4756418327,
+              "duration": 5135796123,
               "status": "passed"
             },
             "line": 17,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 3894169714,
+              "duration": 4354501190,
               "status": "passed"
             },
             "line": 18,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 1207319910,
+              "duration": 1322238207,
               "status": "passed"
             },
             "line": 19,
@@ -186,7 +186,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4612054654,
+              "duration": 4988721189,
               "status": "passed"
             },
             "line": 22,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 3437325252,
+              "duration": 3940944343,
               "status": "passed"
             },
             "line": 23,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 1058043558,
+              "duration": 1278264114,
               "status": "passed"
             },
             "line": 24,
@@ -246,6 +246,25 @@
     "elements": [
       {
         "line": 3,
+        "name": "customers want to Search for product",
+        "description": "GIVEN the customer is on the homepage\nWHEN they enter the \u0027product_name\u0027 in the search bar\nTHEN the should be able to see the \u0027Product_Title\u0027",
+        "id": "as-an-indevidual-i-wan-to-be-able-to-search-ecommerce-webpage-for-product;customers-want-to-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      }
+    ],
+    "name": "as an indevidual I wan to be able to Search Ecommerce webpage for product",
+    "description": "",
+    "id": "as-an-indevidual-i-wan-to-be-able-to-search-ecommerce-webpage-for-product",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ecommerce_Search/SearchProductByName.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
         "name": "Should list items related to a specified keyword",
         "description": "",
         "id": "searching-by-keyword;should-list-items-related-to-a-specified-keyword",
@@ -254,7 +273,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5995391823,
+              "duration": 7654417237,
               "status": "passed"
             },
             "line": 4,
@@ -272,7 +291,7 @@
           },
           {
             "result": {
-              "duration": 4242098623,
+              "duration": 4746133657,
               "status": "passed"
             },
             "line": 5,
@@ -290,7 +309,7 @@
           },
           {
             "result": {
-              "duration": 3325788371,
+              "duration": 3361379757,
               "status": "passed"
             },
             "line": 6,
@@ -318,7 +337,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6265765359,
+              "duration": 6408724714,
               "status": "passed"
             },
             "line": 9,
@@ -336,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 4184836655,
+              "duration": 4414250909,
               "status": "passed"
             },
             "line": 10,
@@ -354,7 +373,7 @@
           },
           {
             "result": {
-              "duration": 3280626258,
+              "duration": 3386435428,
               "status": "passed"
             },
             "line": 11,
@@ -382,7 +401,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6071799055,
+              "duration": 6443372327,
               "status": "passed"
             },
             "line": 14,
@@ -400,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 3894032464,
+              "duration": 4402159687,
               "status": "passed"
             },
             "line": 15,
@@ -418,7 +437,7 @@
           },
           {
             "result": {
-              "duration": 3136629546,
+              "duration": 3524712339,
               "status": "passed"
             },
             "line": 16,
@@ -446,7 +465,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6005395110,
+              "duration": 6435025093,
               "status": "passed"
             },
             "line": 19,
@@ -464,7 +483,7 @@
           },
           {
             "result": {
-              "duration": 3763133347,
+              "duration": 3864300035,
               "status": "passed"
             },
             "line": 20,
@@ -482,7 +501,7 @@
           },
           {
             "result": {
-              "duration": 3264613520,
+              "duration": 3515947599,
               "status": "passed"
             },
             "line": 21,
@@ -510,7 +529,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5992204232,
+              "duration": 6556164144,
               "status": "passed"
             },
             "line": 24,
@@ -528,7 +547,7 @@
           },
           {
             "result": {
-              "duration": 4034278200,
+              "duration": 3906639447,
               "status": "passed"
             },
             "line": 25,
@@ -546,7 +565,7 @@
           },
           {
             "result": {
-              "duration": 3251860695,
+              "duration": 3346225047,
               "status": "passed"
             },
             "line": 26,
@@ -569,7 +588,7 @@
     "description": "",
     "id": "searching-by-keyword",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/ecommerce_Search/searchProducts/SearchingItseProducts.feature"
+    "uri": "src/test/resources/features/searchProducts/SearchingItseProducts.feature"
   },
   {
     "line": 1,
@@ -584,7 +603,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14290916376,
+              "duration": 15296882968,
               "status": "passed"
             },
             "line": 4,
@@ -596,7 +615,7 @@
           },
           {
             "result": {
-              "duration": 7318497227,
+              "duration": 8938409724,
               "status": "passed"
             },
             "line": 5,
@@ -608,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 20296230943,
+              "duration": 22049105384,
               "status": "passed"
             },
             "line": 6,
@@ -620,7 +639,7 @@
           },
           {
             "result": {
-              "duration": 17726711732,
+              "duration": 18451325477,
               "status": "passed"
             },
             "line": 7,
@@ -632,8 +651,8 @@
           },
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.nayods.frameworks.verificotesting.steps.ShippingMethodsSteps.they_should_be_able_to_select_the_add_shipping_method(ShippingMethodsSteps.java:48)\r\n\tat ✽.they should be able to select the add shipping method(src/test/resources/features/ecommerce_Search/shippingProducts/ShippingmethodsFeature.feature:8)\r\n",
-              "duration": 265123895,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.nayods.frameworks.verificotesting.steps.ShippingMethodsSteps.they_should_be_able_to_select_the_add_shipping_method(ShippingMethodsSteps.java:48)\r\n\tat ✽.they should be able to select the add shipping method(src/test/resources/features/shippingProducts/ShippingmethodsFeature.feature:8)\r\n",
+              "duration": 386070933,
               "status": "pending"
             },
             "line": 8,
@@ -650,6 +669,6 @@
     "description": "",
     "id": "as-a-customer-i-should-be-able-to-select-shipping-methods",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/ecommerce_Search/shippingProducts/ShippingmethodsFeature.feature"
+    "uri": "src/test/resources/features/shippingProducts/ShippingmethodsFeature.feature"
   }
 ]

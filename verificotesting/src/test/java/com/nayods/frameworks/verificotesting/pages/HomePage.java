@@ -119,7 +119,7 @@ WebElementFacade emailSubmission;
     WebElementFacade ShippingAddressbty;
     
     public void on_the_payments_form_page(String fulnames,String StreetAddr,String city,String postcode) {
-    	selectcountry.selectByIndex(13);
+    	selectcountry.selectByIndex(15);
     	waitABit(3000);
     	fulnamesInputs.hasFocus();
     	fulnamesInputs.typeAndTab(fulnames);
